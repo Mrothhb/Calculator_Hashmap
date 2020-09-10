@@ -1,0 +1,277 @@
+Script started on Mon Feb 11 15:44:16 2019
+[?1h=
+******************************************************************
+                        WELCOME TO CSE 12!
+
+****************************************************************** 
+[7m/home/linux/ieng6/cs12x/public/broadcast (END)[27m[K[K[K[?1l>]0;[cs12x]  cs12xcm@its-cseb250-13.ucsd.edu:/home/linux/ieng6/cs12x/cs12xcm/hw6[?1034h[cs12xcm@its-cseb250-13]:hw6:678$ ./Driver1 -x
+Initial Symbol Table:
+Hash Table 1:
+size is 5 elements, occupancy is 0 elements.
+Please enter a command:  ((i)nsert, (l)ookup, (w)rite):  i
+Please enter UCSD student name to insert:  name
+Please enter UCSD student number:  123
+[Hash Table 1 - Inserting name]
+[Hash Table 1 - Locate]
+
+[Processing name]
+[Hash value is: 417]
+[Trying index 2]
+[Hash Table 1 - Found Empty Spot]
+
+Please enter a command:  ((i)nsert, (l)ookup, (w)rite):  i
+Please enter UCSD student name to insert:  amen
+Please enter UCSD student number:  234
+[Hash Table 1 - Inserting amen]
+[Hash Table 1 - Locate]
+
+[Processing amen]
+[Hash value is: 417]
+[Trying index 2]
+[Hash Table 1 - Comparing amen and name]
+[Trying index 4]
+[Hash Table 1 - Found Empty Spot]
+
+Please enter a command:  ((i)nsert, (l)ookup, (w)rite):  i
+Please enter UCSD student name to insert:  mean
+Please enter UCSD student number:  345
+[Hash Table 1 - Inserting mean]
+[Hash Table 1 - Locate]
+
+[Processing mean]
+[Hash value is: 417]
+[Trying index 2]
+[Hash Table 1 - Comparing mean and name]
+[Trying index 4]
+[Hash Table 1 - Comparing mean and amen]
+[Trying index 1]
+[Hash Table 1 - Found Empty Spot]
+
+Please enter a command:  ((i)nsert, (l)ookup, (w)rite):  l
+Please enter UCSD student name to lookup:  Tracker
+[Hash Table 1 - Lookup]
+
+[Hash Table 1 - Locate]
+
+[Processing Tracker]
+[Hash value is: 716]
+[Trying index 1]
+[Hash Table 1 - Comparing Tracker and mean]
+[Trying index 2]
+[Hash Table 1 - Comparing Tracker and name]
+Student Tracker not there!
+Please enter a command:  ((i)nsert, (l)ookup, (w)rite):  i
+Please enter UCSD student name to insert:  Tracker
+Please enter UCSD student number:  1
+[Hash Table 1 - Inserting Tracker]
+[Hash Table 1 - Locate]
+
+[Processing Tracker]
+[Hash value is: 716]
+[Trying index 1]
+[Hash Table 1 - Comparing Tracker and mean]
+[Trying index 2]
+[Hash Table 1 - Comparing Tracker and name]
+[Bumping To Next Location...]
+
+[Hash Table 1 - Inserting name]
+[Hash Table 1 - Locate]
+
+[Processing name]
+[Hash value is: 417]
+[Trying index 4]
+[Hash Table 1 - Comparing name and amen]
+[Trying index 1]
+[Hash Table 1 - Comparing name and mean]
+[Trying index 3]
+[Hash Table 1 - Found Empty Spot]
+
+Please enter a command:  ((i)nsert, (l)ookup, (w)rite):  w
+The Symbol Table contains:
+Hash Table 1:
+size is 5 elements, occupancy is 4 elements.
+at index 1: name: mean Studentnum: 345 with probeCount: 3
+at index 2: name: Tracker Studentnum: 1 with probeCount: 2
+at index 3: name: name Studentnum: 123 with probeCount: 4
+at index 4: name: amen Studentnum: 234 with probeCount: 2
+Please enter a command:  ((i)nsert, (l)ookup, (w)rite):  
+Final Symbol Table:
+Hash Table 1:
+size is 5 elements, occupancy is 4 elements.
+at index 1: name: mean Studentnum: 345 with probeCount: 3
+at index 2: name: Tracker Studentnum: 1 with probeCount: 2
+at index 3: name: name Studentnum: 123 with probeCount: 4
+at index 4: name: amen Studentnum: 234 with probeCount: 2
+[Hash Table 1 has been deallocated]
+
+[cs12xcm@its-cseb250-13]:hw6:679$ ./Driver2
+Initial Symbol Table:
+Hash Table 1:
+size is 5 elements, occupancy is 0 elements.
+Please enter a command:  ((i)nsert, (l)ookup, (w)rite):  
+Final Symbol Table:
+Hash Table 1:
+size is 5 elements, occupancy is 0 elements.
+[cs12xcm@its-cseb250-13]:hw6:680$ ./Driver2 -x
+[Hash Table 1 - Allocated]
+Initial Symbol Table:
+Hash Table 1:
+size is 5 elements, occupancy is 0 elements.
+Please enter a command:  ((i)nsert, (l)ookup, (w)rite):  i
+Please enter UCSD Student name to insert:  name
+Please enter UCSD Student number:  123
+[Hash Table 1 - Inserting name]
+[Hash Table 1 - Locate]
+
+[Processing name]
+[Hash Value Is 417]
+[Trying Index 2]
+[Hash Table 1 - Found Empty Spot]
+
+Please enter a command:  ((i)nsert, (l)ookup, (w)rite):  i
+Please enter UCSD Student name to insert:  amen
+Please enter UCSD Student number:  234
+[Hash Table 1 - Inserting amen]
+[Hash Table 1 - Locate]
+
+[Processing amen]
+[Hash Value Is 417]
+[Trying Index 2]
+[Hash Table 1 - Comparing amen and name]
+[Trying Index 4]
+[Hash Table 1 - Found Empty Spot]
+
+Please enter a command:  ((i)nsert, (l)ookup, (w)rite):  i
+Please enter UCSD Student name to insert:  mean
+Please enter UCSD Student number:  345
+[Hash Table 1 - Inserting mean]
+[Hash Table 1 - Locate]
+
+[Processing mean]
+[Hash Value Is 417]
+[Trying Index 2]
+[Hash Table 1 - Comparing mean and name]
+[Trying Index 4]
+[Hash Table 1 - Comparing mean and amen]
+[Trying Index 1]
+[Hash Table 1 - Found Empty Spot]
+
+Please enter a command:  ((i)nsert, (l)ookup, (w)rite):  l w
+The Symbol Table contains:
+Hash Table 1:
+size is 5 elements, occupancy is 3 elements.
+at index 1: name: mean Studentnum: 345 with probeCount: 3
+at index 2: name: name Studentnum: 123 with probeCount: 1
+at index 4: name: amen Studentnum: 234 with probeCount: 2
+Please enter a command:  ((i)nsert, (l)ookup, (w)rite):  l
+Please enter UCSD Student name to lookup:  Tracker
+[Hash Table 1 - Lookup]
+
+[Hash Table 1 - Locate]
+
+[Processing Tracker]
+[Hash Value Is 716]
+[Trying Index 1]
+[Hash Table 1 - Comparing Tracker and mean]
+[Trying Index 2]
+[Hash Table 1 - Comparing Tracker and name]
+Student Tracker not there!
+Please enter a command:  ((i)nsert, (l)ookup, (w)rite):  i
+Please enter UCSD Student name to insert:  Trak cker
+Please enter UCSD Student number:  1
+[Hash Table 1 - Inserting Tracker]
+[Hash Table 1 - Locate]
+
+[Processing Tracker]
+[Hash Value Is 716]
+[Trying Index 1]
+[Hash Table 1 - Comparing Tracker and mean]
+[Trying Index 2]
+[Hash Table 1 - Comparing Tracker and name]
+[Bumping To Next Location...]
+
+[Hash Table 1 - Inserting name]
+[Hash Table 1 - Locate]
+
+[Processing name]
+[Hash Value Is 417]
+[Trying Index 4]
+[Hash Table 1 - Comparing name and amen]
+[Trying Index 1]
+[Hash Table 1 - Comparing name and mean]
+[Trying Index 3]
+[Hash Table 1 - Found Empty Spot]
+
+Please enter a command:  ((i)nsert, (l)ookup, (w)rite):  w
+The Symbol Table contains:
+Hash Table 1:
+size is 5 elements, occupancy is 4 elements.
+at index 1: name: mean Studentnum: 345 with probeCount: 3
+at index 2: name: Tracker Studentnum: 1 with probeCount: 2
+at index 3: name: name Studentnum: 123 with probeCount: 4
+at index 4: name: amen Studentnum: 234 with probeCount: 2
+Please enter a command:  ((i)nsert, (l)ookup, (w)rite):  
+Final Symbol Table:
+Hash Table 1:
+size is 5 elements, occupancy is 4 elements.
+at index 1: name: mean Studentnum: 345 with probeCount: 3
+at index 2: name: Tracker Studentnum: 1 with probeCount: 2
+at index 3: name: name Studentnum: 123 with probeCount: 4
+at index 4: name: amen Studentnum: 234 with probeCount: 2
+[cs12xcm@its-cseb250-13]:hw6:681$ ./Calc1
+
+Please enter an expression to calculate:  1+2
+
+The expression in postfix order is:  1  2  +  
+which evaluates to:  3
+
+Calculator is:
+Stack 1 is:
+Stack 2 is:
+SymTab is:  Hash Table 1:
+size is 53 elements, occupancy is 0 elements.
+
+Please enter an expression to calculate:  
+[cs12xcm@its-cseb250-13]:hw6:682$ ./Calc2
+
+Please enter an expression to calculate:  1+2
+
+The expression in postfix order is:  1  2  +  
+which evaluates to:  3
+
+- Hash Table 1:
+size is 53 elements, occupancy is 0 elements.
+
+Please enter an expression to calculate:  
+[cs12xcm@its-cseb250-13]:hw6:683$ make valgrind_Driver1 
+valgrind --leak-check=full --read-var-info=yes \
+    --show-reachable=yes ./Driver1 
+==26682== Memcheck, a memory error detector
+==26682== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==26682== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==26682== Command: ./Driver1
+==26682== 
+Initial Symbol Table:
+Hash Table 1:
+size is 5 elements, occupancy is 0 elements.
+Please enter a command:  ((i)nsert, (l)ookup, (w)rite):  i
+Please enter UCSD student name to insert:  name
+Please enter UCSD student number:  1
+Please enter a command:  ((i)nsert, (l)ookup, (w)rite):  
+Final Symbol Table:
+Hash Table 1:
+size is 5 elements, occupancy is 1 elements.
+at index 2: name: name Studentnum: 1 with probeCount: 1
+==26682== 
+==26682== HEAP SUMMARY:
+==26682==     in use at exit: 0 bytes in 0 blocks
+==26682==   total heap usage: 4 allocs, 4 frees, 89 bytes allocated
+==26682== 
+==26682== All heap blocks were freed -- no leaks are possible
+==26682== 
+==26682== For counts of detected and suppressed errors, rerun with: -v
+==26682== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+[cs12xcm@its-cseb250-13]:hw6:684$ exit
+exit
+
+Script done on Mon Feb 11 15:46:39 2019
